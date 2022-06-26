@@ -19,3 +19,4 @@ jobs:
           ls ${{ github.workspace }}
       # Purpose of Comments are unknown in this section
       - run: echo "This job's status is ${{ job.status }}."
+      - run: az version
